@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    background-color: #f4f4f4;
+}
+nav{
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ddd;
+}
+section {
+    padding: 65px 25px 25px;
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2, h3 { 
+    color: #333;
+}
+h1{
+    font-size: 3em;
+}
+#skills ul li{
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+#skills ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+a{
+    color: #007bff;
+}
+@media (max-width: 600px){
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
